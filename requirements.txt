@@ -1,0 +1,11 @@
+torch>=2.4.0
+torch-geometric>=2.5.0
+ogb>=1.3.6
+torch-scatter
+torch-sparse
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+networkx
