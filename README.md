@@ -16,9 +16,9 @@ py -3.11 -m venv .venv
 ```
 
 ```bash
-pip install torch==2.5.1 torchvision==0.20.1 --index-url [https://download.pytorch.org/whl/cpu](https://download.pytorch.org/whl/cpu)
+pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cpu
 
-pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f [https://data.pyg.org/whl/torch-2.5.1+cpu.html](https://data.pyg.org/whl/torch-2.5.1+cpu.html)
+pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.5.1+cpu.html
 
 pip install -r requirements.txt
 ```
