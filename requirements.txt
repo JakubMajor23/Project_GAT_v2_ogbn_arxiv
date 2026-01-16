@@ -1,13 +1,9 @@
-torch>=2.6.0
 numpy
 pandas
 networkx
 matplotlib
 seaborn
 scikit-learn
-pyg-lib
-torch-scatter
-torch-sparse
-torch-geometric
 ogb
 requests
+torch-geometric
