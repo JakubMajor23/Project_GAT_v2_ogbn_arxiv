@@ -1,29 +1,27 @@
+# Dokumentacja Projektu GAT v2 (OGBN-Arxiv)
+
 ## Wymagania
-- Python 3.13.7 (Kod testowany wyłącznie na tej wersji)
+- **Python 3.11** 
+- System: Windows
+
 
 ### 1. Instalacja zależności
 
 Na samym początku zalecane jest utworzenie i aktywacja wirtualnego środowiska (`venv`):
 
 ```bash
-# Windows
-python -m venv .venv
+# Windows (PowerShell)
+py -3.11 -m venv .venv
 .venv\Scripts\activate
-
-# Linux/macOS
-python3 -m venv .venv
-source .venv/bin/activate
 ```
 
 ```bash
-pip install pyg_lib -f https://data.pyg.org/whl/torch-2.6.0+cpu.html
+pip install torch==2.5.1 torchvision==0.20.1 --index-url [https://download.pytorch.org/whl/cpu](https://download.pytorch.org/whl/cpu)
 
-pip install torch-geometric
+pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f [https://data.pyg.org/whl/torch-2.5.1+cpu.html](https://data.pyg.org/whl/torch-2.5.1+cpu.html)
 
 pip install -r requirements.txt
 ```
-
-
 
 ### 2. Pobranie danych
 
