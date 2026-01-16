@@ -5,6 +5,9 @@ networkx
 matplotlib
 seaborn
 scikit-learn
+pyg-lib
+torch-scatter
+torch-sparse
 torch-geometric
 ogb
 requests
