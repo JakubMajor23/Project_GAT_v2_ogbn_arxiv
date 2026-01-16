@@ -16,6 +16,9 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+## Wymagania
+- Python 3.13.7 (Kod testowany wyłącznie na tej wersji)
+
 ### 2. Pobranie danych
 
 Skrypt automatycznie pobierze i przygotuje dane w folderze `data/`.
