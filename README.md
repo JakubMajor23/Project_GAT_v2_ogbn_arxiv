@@ -35,11 +35,11 @@ python download_data.py
 
 Trzy główne tryby działania:
 
-#### A. Uruchomienie DEMO
+#### A. Uruchomienie infer
 Jeśli chcesz zobaczyć jak model działa w praktyce, uruchom skrypt demo. Pozwoli on na przetestowanie klasyfikacji na losowych próbkach z datasetu i zweryfikowanie ich z API OpenAlex/ArXiv.
 
 ```bash
-python demo.py
+python infer.py
 ```
 
 #### B. Sprawdzenie skuteczności (Evaluate)
