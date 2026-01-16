@@ -1,3 +1,6 @@
+## Wymagania
+- Python 3.13.7 (Kod testowany wyłącznie na tej wersji)
+
 ### 1. Instalacja zależności
 
 Na samym początku zalecane jest utworzenie i aktywacja wirtualnego środowiska (`venv`):
@@ -20,8 +23,7 @@ pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -
 pip install -r requirements.txt
 ```
 
-## Wymagania
-- Python 3.13.7 (Kod testowany wyłącznie na tej wersji)
+
 
 ### 2. Pobranie danych
 
